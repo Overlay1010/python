@@ -5,9 +5,9 @@ def solution(route):
         if i == "N":
             north += 1
         elif i == "S" :
-            north-=1
+            north  -=1
         elif i == "E" :
             east +=1
-        elif i == "W" :
+        elif i == 'W' :
             east -=1
     return [east, north]
