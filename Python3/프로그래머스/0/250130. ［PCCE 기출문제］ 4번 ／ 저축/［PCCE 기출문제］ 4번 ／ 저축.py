@@ -8,7 +8,7 @@ while money < 70:
     money += before
     month += 1
 while money < 100:
-    money+=after
+    money += after
     month += 1
 
 print(month)
